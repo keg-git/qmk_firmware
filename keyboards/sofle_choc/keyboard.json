@@ -15,15 +15,15 @@
     "features": {
         "bootmagic": true,
         "oled": true,
-        "rgb_matrix": true,
+        "rgb_matrix": false,
         "extrakey": true,
         "mousekey": true
     },
     "development_board": "promicro",
-    "rgb_matrix": {
+    /*"rgb_matrix": {
         "driver": "ws2812",
         "split_count": [29, 29],
-        "animations": {
+        /*"animations": {
             "alphas_mods": true,
             "gradient_up_down": true,
             "gradient_left_right": true,
@@ -53,7 +53,7 @@
             "pixel_fractal": true,
             "pixel_flow": true,
             "pixel_rain": true
-        },
+        },/
         "layout": [
             { "flags": 4, "matrix": [0, 5], "x": 95, "y":  7 },
             { "flags": 4, "matrix": [1, 5], "x": 95, "y": 21 },
@@ -115,7 +115,7 @@
             { "flags": 4, "matrix": [6, 0], "x":224, "y": 21 },
             { "flags": 4, "matrix": [5, 0], "x":224, "y":  7 }
         ]
-    },
+    },*/
     "split": {
         "enabled": true,
         "serial": {
