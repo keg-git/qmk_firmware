@@ -81,9 +81,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_NAV] = LAYOUT(
         LCA(KC_DEL),         KC_F1,        KC_F2,    KC_F3,    KC_F4,        KC_F5,                                KC_F6,         KC_F7,    KC_F8,     KC_F9,        KC_F10,  KC_F11,
-        KC_LALT,     LCTL(KC_LALT),     KC_PRVWD,    KC_UP, KC_NXTWD,      KC_CAPS,                           LGUI(KC_I),       KC_BTN1,  KC_MS_U,   KC_BTN2,    LCTL(KC_W),  KC_F12,
-        KC_LCTL,           KC_LSFT,      KC_LEFT,  KC_DOWN,  KC_RGHT,   KC_PAGE_UP,                              KC_BTN4,       KC_MS_L,  KC_MS_D,   KC_MS_R,       KC_LSFT, _______,
-        KC_LSFT,     LCTL(KC_LALT),      KC_HOME,  KC_COPY,   KC_END, KC_PAGE_DOWN, _______,         _______,    KC_BTN5,       KC_MPRV,  KC_MPLY,   KC_MNXT, LCTL(KC_SLSH), _______,
+        KC_LSFT,     LCTL(KC_LALT),     KC_PRVWD,    KC_UP, KC_NXTWD,      KC_CAPS,                           LGUI(KC_I),       KC_BTN1,  KC_MS_U,   KC_BTN2,    LCTL(KC_W),  KC_F12,
+        KC_LALT,           KC_LSFT,      KC_LEFT,  KC_DOWN,  KC_RGHT,   KC_PAGE_UP,                              KC_BTN4,       KC_MS_L,  KC_MS_D,   KC_MS_R,       KC_LSFT, _______,
+        KC_LCTL,    LSFT(KC_PASTE),      KC_HOME,  KC_COPY,   KC_END, KC_PAGE_DOWN, _______,         _______,    KC_BTN5,       KC_MPRV,  KC_MPLY,   KC_MNXT, LCTL(KC_SLSH), _______,
                                         MO(_SYM),  KC_SLEP,  _______,   LGUI(KC_L), _______,          KC_TAB,   KC_DLINE, LCTL(KC_LSFT),  KC_LSFT,   KC_LGUI
         ),
 
